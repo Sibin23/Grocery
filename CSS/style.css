@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    position: fixed;
+}
+.navbar img {
+    width: 300px;
+}
+
+.navbar a {
+    font-size:large;
+    font-weight: 500;
+    color: green;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+.navbar a:before {
+   content: "";
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   top: 0;
+   left: 0;
+   z-index: 3;
+}
+.navbar-toggler {
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+.w-100-height {
+    height: 85vh;
+}
+.carousel-caption h1 , h3 {
+    margin-bottom: 40px;
+    padding: auto;
+   font-size: 90px;
+   font-weight: 500;
+   line-height: 60px;
+}
+.btn {
+    background-color: rgb(65, 113, 65);
+}
+.quality h1 {
+    text-align: center;
+    padding: 20px;
+}
+.quality p {
+    margin: 40px 100px;
+}
+.col-md-6 img {
+    width: 500px;
+    height: auto;
+    margin-top: 60px;
+    padding-left: 40px;
+    position: relative;
+}
+.col-nd-6 p{
+    font-size: xx-small;
+    padding: auto;
+    position: relative;
+}
+.container1 .logo img {
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-bottom: 100px;
+    position: relative;
+}
+#team img {
+    align-items: center;
+   
+    position:relative;
+    margin: 20px 50px;
+    padding: 10px 40px;
+    width: 40%;
+}
+#team img:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+#team .team-text {
+    margin: 60px;
+    font-size: 3vmin;
+}
+.firstrow img{
+    justify-content: space-between;
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.scndrow img {
+    justify-content: space-between;
+    width: 30%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.firstrow img:hover,
+.scndrow img:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+#product .button {
+   align-items: center;
+   text-align: center;
+
+}
+#contact {
+    background-color: rgb(10, 65, 10);
+    color: #fff;
+}
+#footer .footer-main-content {
+    justify-content: space-between;
+    padding: 30px;
+    margin: 40px;
+}
+.container4 .col-3{
+    height: 250px;
+   
+}
